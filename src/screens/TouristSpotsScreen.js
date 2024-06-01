@@ -17,7 +17,7 @@ const touristSpots = [
 const TouristSpotsScreen = () => {
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>Conheça melhor Presidente Prudente</Text>
+      <Text style={styles.title}>Visite esses locais em  Presidente Prudente</Text>
       {touristSpots.map((spot, index) => (
         <View key={index} style={styles.spotContainer}>
           <Image source={spot.image} style={styles.image} />
@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 20,
     textAlign: 'center',
+    color: '#555',
   },
   spotContainer: {
     marginBottom: 20,

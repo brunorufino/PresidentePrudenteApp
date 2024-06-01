@@ -40,14 +40,14 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 20,
     textAlign: 'center',
-    color: '#333',
-    fontFamily: 'Times New Roman'
+    color: '#555',
+ 
   },
   table: {
     backgroundColor: '#fff',
     borderRadius: 10,
     overflow: 'hidden',
-    elevation: 3, // Adds shadow for Android
+    elevation: 3, 
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,

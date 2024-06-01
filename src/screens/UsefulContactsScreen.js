@@ -22,7 +22,7 @@ const UsefulContactsScreen = () => {
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>Contatos Úteis</Text>
+      <Text style={styles.title}>CONTATOS</Text>
       {usefulContacts.map((category, index) => (
         <View key={index}>
           <Text style={styles.category}>{category.category}</Text>
