@@ -15,13 +15,16 @@ const AppNavigator = () => {
     <NavigationContainer>
       <Tab.Navigator
         initialRouteName="History"
-        tabBarOptions={{
-          activeTintColor: 'tomato',
-          inactiveTintColor: 'gray',
-          style: {
+        screenOptions={{
+          tabBarActiveTintColor: 'tomato',
+          tabBarInactiveTintColor: 'gray',
+          tabBarStyle:[
+          {
             display: 'flex',
           },
-        }}
+          null
+        ]}
+      }
       >
         <Tab.Screen
           name="História"
